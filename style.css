@@ -1,0 +1,417 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+nav {
+    width: 1152px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.nav-link {
+    width: 57px;
+    height: 43px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    /* text-align: right; */
+    color: #000000;
+}
+
+.list-item:not(:last-child) {
+    margin-right: 33px;
+}
+
+/*------------------------------------------HERO-------------------------------------------*/
+
+.hero {
+    display: flex;
+    width: 1152px;
+    padding-top: 100px;
+    padding-left: 148px;
+    padding-bottom: 71px;
+}
+
+.hero-heading {
+    width: 447px;
+    height: 105px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 40px;
+    margin-right: 106px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.hero-text {
+    width: 497px;
+    height: 66px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 38px;
+    color: #21243D;
+}
+
+.hero-btn {
+    width: 208px;
+    height: 47px;
+    background-color: #FF6464;
+    border-radius: 2px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.hero-img {
+    width: 243px;
+    height: 243px;
+}
+
+
+.hero-text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    display: flex;
+}
+
+/*---------------------------------------POSTS----------------------*/
+
+.posts {
+    width: 1152px;
+    height: 396px;
+    background-color: #EDF7FA;
+}
+
+.posts-text {
+    width: 129px;
+    height: 60px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 7px;
+    margin-right: 660px;
+    margin-bottom: 2px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.card-box {
+    display: flex;
+    padding-left: 148px;
+}
+
+.post-card {
+    width: 418px;
+    height: 295px;
+    background-color: #fff;
+}
+
+.post-card:not(:last-child) {
+    margin-right: 20px;
+}
+
+.card-heading {
+    width: 374px;
+    height: 85px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700; 
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+
+.post-card-text {
+   margin-left: 23px;
+}
+
+.card-text {
+    width: 368px;
+    height: 117px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.card-date-box {
+    display: flex;
+}
+
+.card-date-one {
+    margin-right: 30px;
+}
+
+.posts-text-box {
+    display: flex;
+    padding-left: 148px;
+}
+
+.posts-link {
+    margin-top: 27px;
+    width: 208px;
+    height: 20px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+}
+
+/*----------------------------------------------------WORKS-------------------------------*/
+
+.works {
+    width: 1152px;
+}
+
+.works-heading {
+    width: 152px;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 22px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 148px;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.works-card {
+    width: 858px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 146px;
+}
+
+.works-card-date {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.wor {
+    display: flex;
+}
+
+.work-card-img {
+    margin-right: 18px;
+    width: 246px;
+    height: 180px;
+    border-radius: 6px;
+    /* padding-bottom: 46px; */
+}
+
+.works-card-box {
+    display: flex;
+}
+
+.work-text {
+    width: 594px;
+    height: 93px;
+    margin-top: 0;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.works-card-heading {
+    width: 305px;
+    margin-bottom: 10px;
+    height: 44px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+.works-date-one {
+    width: 45px;
+    padding-left: 6px;
+    padding-right: 3px;
+    /* height: 60px; */
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 26px;
+    line-height: 23px;
+    /* identical to box height, or 333% */
+    border-radius: 16px;
+    background-color: #142850;
+    color: #FFFFFF;
+}
+
+.works-date-two {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    color: #8695A4;
+}
+
+/*---------------------------------------------------------------FOOTER---------------------------------------*/
+
+footer {
+    border-top: 2px solid #E0E0E0;
+    width: 1152px;
+    height: 93px;
+}
+
+.social-links {
+    display: flex;
+}
+
+.work-card-img:last-child {
+    padding-bottom: 80px;
+}
+
+.links-list {
+    display: flex;
+    padding-top: 134px;
+    padding-left: 444px;
+}
+
+.social-icon {
+    font-size: 30px;
+    color: #21243D;
+}
+
+.links-item:not(:last-child) {
+    margin-right: 50px; 
+}
+
+.footer-text {
+    height: 21px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 64px;
+    text-align: center;
+    color: #21243D;
+}
+
+.hero-btn:hover {
+    background-color: #ffa500;
+    border: none    ;
+}
+
+@media screen and (min-width: 768px) {
+    .burger-menu {
+        display: none;  
+    }
+
+    .hero-img-tel {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav-list {
+        display: none;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .hero-heading {
+        width: 312px;
+        height: 120px;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        margin-top: 0;
+        margin-bottom: 21px;
+        line-height: 40px;
+        text-align: center;
+        color: #21243D;
+    }
+
+    .hero {
+        width: 375px;
+        padding-top: 33px;
+        padding-left: 32px;
+    }
+
+    .hero-text {
+    width: 328px;
+    height: 96px;
+    margin-top: 0;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 27px;
+    text-align: center;                               
+    color: #21243D;
+    }
+
+    .hero-btn {
+    width: 208px;
+    height: 47px;
+    margin-left: 53px;
+    background: #FF6464;
+    border-radius: 2px;
+    }
+}
+
+.hero-img-tel {
+    margin-bottom: 43px;
+    padding-left: 72px;
+    width: 170.86px;
+    height: 170.86px;
+}
+
+.burger-menu {
+    padding-top: 10px;
+    padding-left: 330px;
+
+}
