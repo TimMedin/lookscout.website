@@ -381,25 +381,29 @@ footer {
     }
 
     .hero-text {
-    width: 328px;
-    height: 96px;
-    margin-top: 0;
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 27px;
-    text-align: center;                               
-    color: #21243D;
+        width: 328px;
+        height: 96px;
+        margin-top: 0;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 27px;
+        text-align: center;                               
+        color: #21243D;
     }
 
     .hero-btn {
-    width: 208px;
-    height: 47px;
-    margin-left: 53px;
-    background: #FF6464;
-    border-radius: 2px;
+        width: 208px;
+        height: 47px;
+        margin-left: 53px;
+        background: #FF6464;
+        border-radius: 2px;                                                                         
+    }
+
+    nav {
+        width: 375px;
     }
 }
 
